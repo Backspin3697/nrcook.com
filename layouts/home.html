@@ -1,0 +1,9 @@
+{{ define "main" }}
+<article class="content">
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+  {{- with site.Params.email }}
+  <p class="contact"><a href="mailto:{{ . }}">{{ . }}</a></p>
+  {{- end }}
+</article>
+{{ end }}

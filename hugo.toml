@@ -1,0 +1,12 @@
+baseURL = "https://nrcook.com/"
+title = "Nathan Cook"
+enableRobotsTXT = true
+disableKinds = ["taxonomy", "term", "rss"]
+
+[params]
+  description = "TODO: one-line description of Nathan Cook for search results and link previews."
+  # Shown as a mailto: link on the home page when set.
+  email = ""
+
+[markup.goldmark.renderer]
+  unsafe = false
