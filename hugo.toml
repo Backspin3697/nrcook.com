@@ -1,6 +1,7 @@
 baseURL = "https://nrcook.com/"
 title = "Nathan Cook"
 enableRobotsTXT = true
+disableHugoGeneratorInject = true
 disableKinds = ["taxonomy", "term", "rss"]
 
 [params]
